@@ -1,0 +1,216 @@
+{
+  "Title": "The Chronic",
+  "Cover": "https://www.musicmeter.nl/images/cover/0/1.jpg",
+  "Artist": "Dr. Dre",
+  "Year": 1992,
+  "ReleaseDate": "1992-12-15T00:00:00",
+  "Rating": 3.99,
+  "Label": "Death Row",
+  "Genre": "Hip-Hop",
+  "Tracks": [
+    {
+      "Title": "The Chronic (Intro)",
+      "Artists": [
+        "Dr. Dre",
+        "Snoop Doggy Dogg"
+      ]
+    },
+    {
+      "Title": "Fuck Wit Dre Day (And Everybody's Celebratin')",
+      "Artists": [
+        "Dr. Dre",
+        "Snoop Doggy Dogg",
+        "RBX",
+        "Jewell"
+      ]
+    },
+    {
+      "Title": "Let Me Ride",
+      "Artists": [
+        "Dr. Dre",
+        "Ruben",
+        "Jewell"
+      ]
+    },
+    {
+      "Title": "The Day the Niggaz Took Over",
+      "Artists": [
+        "Dr. Dre",
+        "RBX",
+        "Snoop Doggy Dogg",
+        "Dat Nigga Daz"
+      ]
+    },
+    {
+      "Title": "Nuthin' but a \"G\" Thang",
+      "Artists": [
+        "Dr. Dre",
+        "Snoop Doggy Dogg"
+      ]
+    },
+    {
+      "Title": "Deeez Nuuuts",
+      "Artists": [
+        "Dr. Dre",
+        "Dat Nigga Daz",
+        "Snoop Doggy Dogg",
+        "Nate Dogg",
+        "Warren G"
+      ]
+    },
+    {
+      "Title": "Lil' Ghetto Boy",
+      "Artists": [
+        "Dr. Dre",
+        "Snoop Doggy Dogg",
+        "Dat Nigga Daz"
+      ]
+    },
+    {
+      "Title": "A Nigga Witta Gun",
+      "Artists": [
+        "Dr. Dre"
+      ]
+    },
+    {
+      "Title": "Rat-Tat-Tat-Tat",
+      "Artists": [
+        "Dr. Dre",
+        "RBX",
+        "BJ",
+        "Snoop Doggy Dogg"
+      ]
+    },
+    {
+      "Title": "The $20 Sack Pyramid",
+      "Artists": [
+        "Dr. Dre",
+        "Big Tittie Nickie",
+        "The D.O.C.",
+        "Samara",
+        "Snoop Doggy Dogg"
+      ]
+    },
+    {
+      "Title": "Lyrical Gangbang",
+      "Artists": [
+        "Dr. Dre",
+        "Lady of Rage",
+        "Kurupt",
+        "RBX"
+      ]
+    },
+    {
+      "Title": "High Powered",
+      "Artists": [
+        "Dr. Dre",
+        "RBX",
+        "Dat Nigga Daz",
+        "Lady of Rage"
+      ]
+    },
+    {
+      "Title": "The Doctor's Office",
+      "Artists": [
+        "Dr. Dre",
+        "Jewell",
+        "Lady of Rage"
+      ]
+    },
+    {
+      "Title": "Stranded on Death Row",
+      "Artists": [
+        "Dr. Dre",
+        "Bushwick Bill",
+        "Kurupt",
+        "RBX",
+        "Lady of Rage",
+        "Snoop Doggy Dogg"
+      ]
+    },
+    {
+      "Title": "The Roach",
+      "Artists": [
+        "Dr. Dre",
+        "RBX",
+        "Dat Nigga Daz",
+        "Lady of Rage",
+        "Emmage",
+        "Ruben",
+        "Jewell"
+      ]
+    },
+    {
+      "Title": "Bitches Ain't Shit",
+      "Artists": [
+        "Dr. Dre",
+        "Snoop Doggy Dogg",
+        "Dat Nigga Daz",
+        "Kurupt"
+      ]
+    },
+    {
+      "Title": "Poor Young Dave *",
+      "Artists": [
+        "Dr. Dre",
+        "Snoop Doggy Dogg"
+      ]
+    },
+    {
+      "Title": "Slippin' in the West *",
+      "Artists": [
+        "Dr. Dre",
+        "C.P.O.",
+        "Kurupt"
+      ]
+    },
+    {
+      "Title": "Smoke Enough Bud *",
+      "Artists": [
+        "Dr. Dre",
+        "Jewell",
+        "Snoop Doggy Dogg"
+      ]
+    },
+    {
+      "Title": "Foo Nay Mic *",
+      "Artists": [
+        "Dr. Dre",
+        "C.P.O."
+      ]
+    },
+    {
+      "Title": "Dog Collar *",
+      "Artists": [
+        "Dr. Dre",
+        "Snoop Doggy Dogg",
+        "Lady \"V\"",
+        "KV",
+        "Big Pimpin'",
+        "6'9°",
+        "Twin",
+        "Bad Azz"
+      ]
+    },
+    {
+      "Title": "Touchdown *",
+      "Artists": [
+        "Dr. Dre",
+        "Snoop Doggy Dogg",
+        "Threat"
+      ]
+    },
+    {
+      "Title": "Would You Ride *",
+      "Artists": [
+        "Dr. Dre",
+        "Kurupt",
+        "Amber",
+        "Tyrone",
+        "Daz",
+        "Snoop Doggy Dogg"
+      ]
+    }
+  ],
+  "IsCompilation": false
+}
