@@ -1,0 +1,25 @@
+name: Upload NuGet package
+
+on:
+  release:
+    types: [ published ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+          source-url: https://nuget.pkg.github.com/leonverschuren/index.json
+        env:
+          NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Create the package
+        run: dotnet pack --configuration Release src/MusicMeterScraper.sln -p:PackageVersion=${{ github.event.release.tag_name }}
+      - name: Publish the package to GPR
+        run: dotnet nuget push "**/*.nupkg"

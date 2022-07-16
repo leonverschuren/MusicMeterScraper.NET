@@ -4,6 +4,10 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <LangVersion>Latest</LangVersion>
+        <PackageId>MusicMeterScraper</PackageId>
+        <Authors>Leon Verschuren</Authors>
+        <PackageDescription>Scrape album metadata from the Dutch music website musicmeter.nl.</PackageDescription>
+        <RepositoryUrl>https://github.com/leonverschuren/MusicMeterScraper.NET</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
