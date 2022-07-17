@@ -77,10 +77,11 @@ internal class RegularAlbumScraper : IAlbumScraper
         return trackElements.Select(ExtractTrack).ToArray();
     }
 
-    private Track ExtractTrack(IElement element)
+    private Track ExtractTrack(IElement element, int index)
     {
         return new Track
         {
+            TrackNumber = index + 1,
             Title = ExtractTrackTitle(element),
             Artists = ExtractTrackArtists(element).ToArray()
         };
