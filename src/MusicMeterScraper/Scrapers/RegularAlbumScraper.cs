@@ -48,8 +48,13 @@ internal class RegularAlbumScraper : IAlbumScraper
         return int.Parse(year.Substring(year.LastIndexOf("(") + 1, 4));
     }
 
-    public decimal ExtractRating()
+    public decimal? ExtractRating()
     {
+        if (Document.QuerySelector(".star-rating.entity-rating.not-voted") is not null)
+        {
+            return null;
+        }
+        
         var element = Document.QuerySelector("#main div.star-rating.entity-rating > span");
         return decimal.Parse(element.Text(), new CultureInfo("nl-NL"));
     }

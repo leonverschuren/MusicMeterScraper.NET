@@ -9,7 +9,7 @@ internal interface IAlbumScraper
     string ExtractAlbumArtist();
     string ExtractCover();
     int ExtractYear();
-    decimal ExtractRating();
+    decimal? ExtractRating();
     string ExtractGenre();
     string ExtractLabel();
     IEnumerable<Track> ExtractTracks();
