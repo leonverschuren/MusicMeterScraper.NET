@@ -43,4 +43,17 @@ public class MusicMeterAlbumScraperTests
         // Assert
         Assert.AreEqual(1997, result.Year);
     }
+    
+    [TestMethod]
+    public async Task ScrapeAlbumById_ReleaseDateWithWhiteSpace_CorrectReleaseDate()
+    {
+        // Arrange
+        var albumId = 839125;
+        
+        // Act
+        var result = await _sut.ScrapeAlbumByIdAsync(albumId);
+        
+        // Assert
+        Assert.AreEqual(new DateTime(2022, 3, 4), result.ReleaseDate);
+    }
 }

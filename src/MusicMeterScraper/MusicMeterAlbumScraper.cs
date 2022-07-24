@@ -19,7 +19,7 @@ public class MusicMeterAlbumScraper : IDisposable
     {
         try
         {
-            return await InternalScrapeAlbumById(id);
+            return await ScrapeAlbumByIdInternal(id);
         }
         catch (Exception e)
         {
@@ -27,7 +27,7 @@ public class MusicMeterAlbumScraper : IDisposable
         }
     }
 
-    private async Task<Album> InternalScrapeAlbumById(int id)
+    private async Task<Album> ScrapeAlbumByIdInternal(int id)
     {
         using IDocument albumDocument = await _browsingContext.OpenAsync($"https://www.musicmeter.nl/album/{id}");
         var albumScraper = ScraperFactory.CreateAlbumScraper(albumDocument);

@@ -21,7 +21,7 @@ internal class StatsScraper
             return null;
         }
 
-        var releaseDateValue = element.Text().Substring("releasedatum: ".Length);
+        var releaseDateValue = element.Text().Substring("releasedatum: ".Length).Trim();
 
         return DateTime.ParseExact(releaseDateValue, "d MMMM yyyy", new CultureInfo("nl-NL"));
     }
