@@ -8,7 +8,7 @@ internal class CompilationAlbumScraper : RegularAlbumScraper
     {
     }
 
-    public override bool IsCompilation { get; } = true;
+    public override bool IsCompilation => true;
 
     public override string ExtractTitle()
     {

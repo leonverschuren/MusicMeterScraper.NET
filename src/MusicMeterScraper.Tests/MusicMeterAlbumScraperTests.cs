@@ -17,6 +17,7 @@ public class MusicMeterAlbumScraperTests
     [TestMethod]
     [DataRow(1)]
     [DataRow(13039)]
+    [DataRow(757630)]
     public async Task ScrapeAlbumById_ReturnsAllScrapedData(int albumId)
     {
         // Arrange

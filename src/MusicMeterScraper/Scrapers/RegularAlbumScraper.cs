@@ -13,7 +13,7 @@ internal class RegularAlbumScraper : IAlbumScraper
         Document = document;
     }
 
-    public virtual bool IsCompilation { get; } = false;
+    public virtual bool IsCompilation => false;
 
     public virtual string ExtractTitle()
     {
@@ -89,17 +89,21 @@ internal class RegularAlbumScraper : IAlbumScraper
 
     private string ExtractTrackTitle(IElement element)
     {
-        return HasMainArtists(element) 
-            ? element.ChildNodes[4].Text().Substring(" -".Length).Trim() 
-            : element.ChildNodes[2].Text().Trim();
+        if (HasMainArtists(element))
+        {
+            var titleElement = element.ChildNodes.FirstOrDefault(n => n.Text().StartsWith(" -"));
+            return titleElement?.Text().Substring(" -".Length).Trim();
+        }
+
+        return element.ChildNodes[2].Text().Trim();
     }
 
-    private bool HasMainArtists(IElement element)
+    private static bool HasMainArtists(IElement element)
     {
         var allArtists = element.QuerySelectorAll("a[data-tooltip-artist]").Length;
         var guestArtists = element.QuerySelectorAll(".subtext > a[data-tooltip-artist]").Length;
 
-        return allArtists != guestArtists;
+        return allArtists != 0 && allArtists > guestArtists;
     }
 
     private IEnumerable<string> ExtractTrackArtists(IElement element)
