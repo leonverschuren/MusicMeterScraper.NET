@@ -1,0 +1,125 @@
+﻿{
+  Title: Dr. Dre Presents... The Aftermath,
+  Cover: https://www.musicmeter.nl/images/cover/13000/13039.jpg,
+  Year: 1996,
+  ReleaseDate: 1996-11-26,
+  Rating: 2.77,
+  Label: Aftermath (II),
+  Genre: Hip-Hop / R&B,
+  Tracks: [
+    {
+      TrackNumber: 1,
+      Title: Aftermath (The Intro),
+      Artists: [
+        Dr. Dre
+      ]
+    },
+    {
+      TrackNumber: 2,
+      Title: East Coast-West Coast Killas,
+      Artists: [
+        Group Therapy
+      ]
+    },
+    {
+      TrackNumber: 3,
+      Title: Shittin' on the World,
+      Artists: [
+        Mel-Man
+      ]
+    },
+    {
+      TrackNumber: 4,
+      Title: Blunt Time,
+      Artists: [
+        RBX
+      ]
+    },
+    {
+      TrackNumber: 5,
+      Title: Been There, Done That,
+      Artists: [
+        Dr. Dre
+      ]
+    },
+    {
+      TrackNumber: 6,
+      Title: Choices,
+      Artists: [
+        Kim Summerson
+      ]
+    },
+    {
+      TrackNumber: 7,
+      Title: As the World Keeps Turning,
+      Artists: [
+        Miscellaneous
+      ]
+    },
+    {
+      TrackNumber: 8,
+      Title: Got Me Open,
+      Artists: [
+        Hands-On
+      ]
+    },
+    {
+      TrackNumber: 9,
+      Title: Str-8 Gone,
+      Artists: [
+        King Tee
+      ]
+    },
+    {
+      TrackNumber: 10,
+      Title: Please,
+      Artists: [
+        Maurice Wilcher
+      ]
+    },
+    {
+      TrackNumber: 11,
+      Title: Do 4 Love,
+      Artists: [
+        Jheryl Lockhart
+      ]
+    },
+    {
+      TrackNumber: 12,
+      Title: Sexy Dance,
+      Artists: [
+        RC
+      ]
+    },
+    {
+      TrackNumber: 13,
+      Title: No Second Chance,
+      Artists: [
+        Who'z Who
+      ]
+    },
+    {
+      TrackNumber: 14,
+      Title: L.A.W. (Lyrical Assault Weapon),
+      Artists: [
+        Sharief
+      ]
+    },
+    {
+      TrackNumber: 15,
+      Title: Nationowl,
+      Artists: [
+        Nowl
+      ]
+    },
+    {
+      TrackNumber: 16,
+      Title: Fame,
+      Artists: [
+        RC,
+        King Tee
+      ]
+    }
+  ],
+  IsCompilation: true
+}
