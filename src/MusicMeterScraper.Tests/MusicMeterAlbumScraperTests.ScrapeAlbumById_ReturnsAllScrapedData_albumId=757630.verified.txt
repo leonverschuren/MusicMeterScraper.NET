@@ -1,0 +1,67 @@
+﻿{
+  Title: Wu-Tang: Of Mics and Men,
+  Cover: https://www.musicmeter.nl/images/cover/757000/757630.jpg,
+  Year: 2019,
+  ReleaseDate: 2019-05-17,
+  Rating: 2.83,
+  Label: Mass Appeal,
+  Genre: Hip-Hop,
+  Tracks: [
+    {
+      TrackNumber: 1,
+      Title: On That Shit Again,
+      Artists: [
+        Ghostface Killah,
+        RZA
+      ]
+    },
+    {
+      TrackNumber: 2,
+      Title: Seen a Lot of Things,
+      Artists: [
+        Ghostface Killah,
+        Raekwon,
+        Harley
+      ]
+    },
+    {
+      TrackNumber: 3,
+      Title: Project Kids [Skit],
+      Artists: [
+        Nas
+      ]
+    },
+    {
+      TrackNumber: 4,
+      Title: Do the Same as My Brother Do,
+      Artists: [
+        RZA
+      ]
+    },
+    {
+      TrackNumber: 5,
+      Title: Yo, Is You Cheo? [Skit],
+      Artists: [
+        Cheo Hodari Coker
+      ]
+    },
+    {
+      TrackNumber: 6,
+      Title: Of Mics and Men,
+      Artists: [
+        RZA,
+        Masta Killa,
+        Cappadonna
+      ]
+    },
+    {
+      TrackNumber: 7,
+      Title: One Rhyme [Skit],
+      Artists: [
+        GZA,
+        Masta Killa
+      ]
+    }
+  ],
+  IsCompilation: true
+}

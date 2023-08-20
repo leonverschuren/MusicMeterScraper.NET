@@ -1,12 +1,17 @@
-using FluentAssertions.Json;
-using Newtonsoft.Json.Linq;
+using System.Runtime.CompilerServices;
 
 namespace MusicMeterScraper.Tests;
 
 [TestClass]
-public class MusicMeterAlbumScraperTests
+public class MusicMeterAlbumScraperTests : VerifyBase
 {
     private MusicMeterAlbumScraper _sut;
+
+    [ModuleInitializer]
+    public static void Init()
+    {
+        VerifierSettings.DontScrubDateTimes();
+    }
 
     [TestInitialize]
     public void Initialize()
@@ -26,10 +31,7 @@ public class MusicMeterAlbumScraperTests
         var result = await _sut.ScrapeAlbumByIdAsync(albumId);
 
         // Assert
-        var actual = JToken.FromObject(result);
-        var expected = JToken.Parse(File.ReadAllText($"Expected/{albumId}.json"));
-
-        actual.Should().BeEquivalentTo(expected);
+        await Verify(result).UseParameters(albumId);
     }
 
     [TestMethod]
@@ -37,23 +39,23 @@ public class MusicMeterAlbumScraperTests
     {
         // Arrange
         var albumId = 30643;
-        
+
         // Act
         var result = await _sut.ScrapeAlbumByIdAsync(albumId);
-        
+
         // Assert
         Assert.AreEqual(1997, result.Year);
     }
-    
+
     [TestMethod]
     public async Task ScrapeAlbumById_ReleaseDateWithWhiteSpace_CorrectReleaseDate()
     {
         // Arrange
         var albumId = 839125;
-        
+
         // Act
         var result = await _sut.ScrapeAlbumByIdAsync(albumId);
-        
+
         // Assert
         Assert.AreEqual(new DateTime(2022, 3, 4), result.ReleaseDate);
     }
