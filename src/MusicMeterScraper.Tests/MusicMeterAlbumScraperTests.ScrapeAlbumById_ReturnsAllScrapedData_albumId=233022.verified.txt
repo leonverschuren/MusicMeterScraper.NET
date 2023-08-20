@@ -1,0 +1,134 @@
+﻿{
+  Title: Live. Love. A$AP,
+  Cover: https://www.musicmeter.nl/images/cover/233000/233022.jpg,
+  Artist: A$AP Rocky,
+  Year: 2011,
+  ReleaseDate: 2011-10-31,
+  Rating: 3.83,
+  Genre: Hip-Hop,
+  Tracks: [
+    {
+      TrackNumber: 1,
+      Title: Palace,
+      Artists: [
+        A$AP Rocky
+      ]
+    },
+    {
+      TrackNumber: 2,
+      Title: Peso,
+      Artists: [
+        A$AP Rocky
+      ]
+    },
+    {
+      TrackNumber: 3,
+      Title: Bass,
+      Artists: [
+        A$AP Rocky
+      ]
+    },
+    {
+      TrackNumber: 4,
+      Title: Wassup?,
+      Artists: [
+        A$AP Rocky
+      ]
+    },
+    {
+      TrackNumber: 5,
+      Title: Brand New Guy,
+      Artists: [
+        A$AP Rocky,
+        ScHoolboy Q
+      ]
+    },
+    {
+      TrackNumber: 6,
+      Title: Purple Swag, Chapter 2,
+      Artists: [
+        A$AP Rocky,
+        A$AP Nast,
+        SpaceGhostPurrp
+      ]
+    },
+    {
+      TrackNumber: 7,
+      Title: Get Lit,
+      Artists: [
+        A$AP Rocky,
+        Fat Tony
+      ]
+    },
+    {
+      TrackNumber: 8,
+      Title: Trilla,
+      Artists: [
+        A$AP Rocky,
+        A$AP Nast,
+        A$AP Twelvyy
+      ]
+    },
+    {
+      TrackNumber: 9,
+      Title: Keep It G,
+      Artists: [
+        A$AP Rocky,
+        Chace Infinite,
+        SpaceGhostPurrp
+      ]
+    },
+    {
+      TrackNumber: 10,
+      Title: Kissin' Pink,
+      Artists: [
+        A$AP Rocky,
+        A$AP Ferg
+      ]
+    },
+    {
+      TrackNumber: 11,
+      Title: Houston Old Head,
+      Artists: [
+        A$AP Rocky
+      ]
+    },
+    {
+      TrackNumber: 12,
+      Title: Acid Drips,
+      Artists: [
+        A$AP Rocky
+      ]
+    },
+    {
+      TrackNumber: 13,
+      Title: Leaf,
+      Artists: [
+        A$AP Rocky,
+        Main Attrakionz
+      ]
+    },
+    {
+      TrackNumber: 14,
+      Title: Roll One Up,
+      Artists: [
+        A$AP Rocky
+      ]
+    },
+    {
+      TrackNumber: 15,
+      Title: Demons,
+      Artists: [
+        A$AP Rocky
+      ]
+    },
+    {
+      TrackNumber: 16,
+      Title: Out of This World,
+      Artists: [
+        A$AP Rocky
+      ]
+    }
+  ],
+  IsCompilation: false
+}
