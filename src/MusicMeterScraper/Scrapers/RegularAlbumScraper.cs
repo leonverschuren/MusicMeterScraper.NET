@@ -68,7 +68,7 @@ internal class RegularAlbumScraper : IAlbumScraper
     public string ExtractLabel()
     {
         var element = Document.QuerySelector("#main div.details-inner > p > a");
-        return element.Text().Trim();
+        return element?.Text().Trim();
     }
 
     public IEnumerable<Track> ExtractTracks()
